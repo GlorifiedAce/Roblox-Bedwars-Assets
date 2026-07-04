@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bedwars Asset Chest — Free Bedwars Dev Assets</title>
+<meta name="description" content="A free asset chest for Roblox Bedwars creators — icons, models, Blender rigs, PSD templates, and video tutorials.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Work+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-block" aria-hidden="true"></span>
+      <span class="brand-name">BEDWARS<br>ASSET&nbsp;CHEST</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#gallery">Browse</a>
+      <a href="#updates">Updates</a>
+      <a href="#donate">Donate</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="discord-btn" href="#" target="_blank" rel="noopener">
+      Join Discord
+    </a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Fan-made · free to use · always open</p>
+        <h1>Everything you need to<br>make a Roblox Bedwars GFX</h1>
+        <p class="hero-sub">Icons, models, Blender rigs, PSD templates, and video tutorials —
+          pulled from one chest, not scattered across a dozen Discord servers.</p>
+
+        <div class="search-slot">
+          <input type="text" id="searchInput" placeholder="Search the chest… try 'sword' or 'thumbnail'" autocomplete="off">
+        </div>
+
+        <div class="stat-row" id="statRow" aria-label="Item counts by category"></div>
+      </div>
+
+      <div class="hero-chest" aria-hidden="true">
+        <div class="chest-grid">
+          <div class="chest-slot slot-icons"></div>
+          <div class="chest-slot slot-models"></div>
+          <div class="chest-slot slot-rigs"></div>
+          <div class="chest-slot slot-psds"></div>
+          <div class="chest-slot slot-tutorials"></div>
+          <div class="chest-slot slot-empty"></div>
+          <div class="chest-slot slot-empty"></div>
+          <div class="chest-slot slot-empty"></div>
+          <div class="chest-slot slot-empty"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOTBAR CATEGORY FILTER ============ -->
+  <div class="hotbar-wrap" id="gallery">
+    <div class="hotbar" id="hotbar" role="tablist" aria-label="Filter by category"></div>
+  </div>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery-section">
+    <div class="gallery-head">
+      <h2 id="categoryTitle">All Items</h2>
+      <p id="categoryDesc" class="category-desc">Everything in the chest.</p>
+      <p class="result-count" id="resultCount"></p>
+    </div>
+
+    <div class="asset-grid" id="assetGrid"></div>
+
+    <div class="empty-state" id="emptyState" hidden>
+      <div class="empty-icon" aria-hidden="true"></div>
+      <h3>This chest is empty.</h3>
+      <p>Nothing matches that search. Try a different term or pick another category from the hotbar.</p>
+    </div>
+  </section>
+
+  <!-- ============ UPDATES ============ -->
+  <section class="updates-section" id="updates">
+    <h2>Latest additions</h2>
+    <p class="section-sub">New items get added to the chest here first.</p>
+    <ul class="updates-list" id="updatesList"></ul>
+  </section>
+
+  <!-- ============ DONATE ============ -->
+  <section class="donate-section" id="donate">
+    <h2>Support the chest</h2>
+    <p class="section-sub">Everything here is free — donations just help keep new assets coming. Pick a tier to buy the matching gamepass on Roblox.</p>
+    <div class="donate-grid" id="donateGrid"></div>
+  </section>
+
+  <!-- ============ ABOUT / DISCLAIMER ============ -->
+  <section class="about-section" id="about">
+    <h2>About this chest</h2>
+    <p>Bedwars Asset Chest is a free, fan-run resource for people building their own Bedwars-style
+      Roblox games. Everything here is shared to help creators skip the boring setup work and get
+      to designing kits, maps, and game feel faster.</p>
+    <p class="disclaimer">Not affiliated with, endorsed by, or connected to Roblox Corporation or the
+      developers of any specific Bedwars game. All trademarks belong to their respective owners.
+      Assets are shared by community members — check each item's author credit before commercial use.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Bedwars Asset Chest — built by the community, for the community.</p>
+  <a href="#" target="_blank" rel="noopener">Discord</a>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
