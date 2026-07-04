@@ -80,7 +80,7 @@ const ASSET_DATA = [
     fileType: "RBXL",
     fileSize: "26 MB",
     thumb: "thumbs/Bedwars Assets Ultimate.png",
-    downloadUrl: "downloads/Bedwars Assets Ultimate.rbxl",
+    downloadUrl: "https://drive.google.com/file/d/14qTK1XnBtO4ogiA-LddEamOLi8lTNm1t/view?usp=drive_link",
     author: "exactlygold",
     tags: ["model", "kit", "archer", "bow", "rbxm", "bedwars", "assets", "all"]
   },
@@ -92,7 +92,7 @@ const ASSET_DATA = [
     fileType: "BLEND",
     fileSize: "41 MB",
     thumb: "thumbs/Desert Shrine Map.png",
-    downloadUrl: "downloads/Desert Shrine Map.blend",
+    downloadUrl: "https://drive.google.com/file/d/1zxqV9UY3Avrxpj33gdx6jF5fSKmwnNVl/view?usp=drive_link",
     author: "GlorifiedAce",
     tags: ["model", "kit", "map", "template", "rbxl", "island", "desert shrine"]
   },
@@ -132,7 +132,7 @@ const ASSET_DATA = [
     fileType: "PSD",
     fileSize: "250 MB",
     thumb: "thumbs/Roblox Bedwars Asset Pack V2.png",
-    downloadUrl: "downloads/Roblox Bedwars Asset Pack V2.psd",
+    downloadUrl: "https://drive.google.com/file/d/1k305ptdYfZnZBFE3d2iHebWf2-4kUI4U/view?usp=drive_link",
     author: "Sword Designs",
     tags: ["psd", "shop", "asset", "template", "skys", "renders", "ranks"]
   },
@@ -144,7 +144,7 @@ const ASSET_DATA = [
     fileType: "PSD",
     fileSize: "353 MB",
     thumb: "thumbs/Sword's GFX Pack V2.png",
-    downloadUrl: "downloads/psd-icon-pack-source.psd",
+    downloadUrl: "https://drive.google.com/file/d/1jRA74_5LB0iuHl7kiwqgGMXJMeGSI_bY/view?usp=sharing",
     author: "Sword Designs",
     tags: ["psd", "icons", "source", "template", "ranks", "gfx", "asset", "text", "effects"]
   },
