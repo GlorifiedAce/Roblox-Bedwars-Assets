@@ -10,7 +10,7 @@
   FIELD GUIDE
   ------------------------------------------------------------
   id          unique string, no spaces (e.g. "icon-sword-01")
-  category    one of: "icons", "models", "rigs", "psds", "tutorials"
+  category    one of: "models", "rigs", "psds", "tutorials", "poses"
   name        display name shown on the card
   description short one-line description (shown on hover / detail)
 
@@ -33,44 +33,6 @@
 */
 
 const ASSET_DATA = [
-  // ---------------- ICONS / GUI ----------------
-  {
-    id: "icon-diamond-sword",
-    category: "icons",
-    name: "Diamond Sword Icon",
-    description: "Clean 128x128 shop icon for the diamond sword upgrade.",
-    fileType: "PNG",
-    fileSize: "48 KB",
-    thumb: "",
-    downloadUrl: "downloads/icon-diamond-sword.png",
-    author: "",
-    tags: ["icon", "sword", "shop", "gui", "diamond"]
-  },
-  {
-    id: "icon-bed-health",
-    category: "icons",
-    name: "Bed Health UI Icon",
-    description: "Heart-shaped bed icon used for the bed-health HUD element.",
-    fileType: "PNG",
-    fileSize: "31 KB",
-    thumb: "",
-    downloadUrl: "downloads/icon-bed-health.png",
-    author: "",
-    tags: ["icon", "bed", "hud", "gui", "health"]
-  },
-  {
-    id: "icon-emerald-currency",
-    category: "icons",
-    name: "Emerald Currency Icon",
-    description: "In-game currency icon for the resource generator shop.",
-    fileType: "PNG",
-    fileSize: "27 KB",
-    thumb: "",
-    downloadUrl: "downloads/icon-emerald-currency.png",
-    author: "",
-    tags: ["icon", "currency", "emerald", "shop", "gui"]
-  },
-
   // ---------------- MODELS (.rbxm / .rbxl) ----------------
   {
     id: "bedwars-assets-ultimate",
@@ -167,6 +129,32 @@ const ASSET_DATA = [
     youtubeId: "xrYLPPsx15o",
     author: "Skyez",
     tags: ["tutorial", "shop", "guide", "setup", "video", "gfx", "beginner", "bedwars"]
+  },
+
+  // ---------------- POSES (.blend) ----------------
+  {
+    id: "pose-victory-stance",
+    category: "poses",
+    name: "Victory Stance Pose",
+    description: "Heroic victory pose rig, ready to drop into a GFX render.",
+    fileType: "BLEND",
+    fileSize: "4.1 MB",
+    thumb: "",
+    downloadUrl: "downloads/pose-victory-stance.blend",
+    author: "",
+    tags: ["pose", "blender", "victory", "gfx"]
+  },
+  {
+    id: "pose-action-swing",
+    category: "poses",
+    name: "Action Swing Pose",
+    description: "Mid-swing action pose for weapon showcase thumbnails.",
+    fileType: "BLEND",
+    fileSize: "3.8 MB",
+    thumb: "",
+    downloadUrl: "downloads/pose-action-swing.blend",
+    author: "",
+    tags: ["pose", "blender", "action", "swing", "gfx"]
   }
 ];
 
@@ -214,9 +202,9 @@ const DONATION_TIERS = [
 // Category metadata: label, short code shown on the hotbar slot, and description.
 const CATEGORY_META = {
   all:        { label: "All Items",        code: "ALL", desc: "Everything in the chest." },
-  icons:      { label: "Icons / GUI",      code: "ICO", desc: "Shop icons, HUD icons, and UI glyphs." },
   models:     { label: "Models",           code: "MOD", desc: ".rbxm and .rbxl model and map files." },
   rigs:       { label: "Blender Rigs",     code: "RIG", desc: ".blend rigs for kits and characters." },
   psds:       { label: "PSD Templates",    code: "PSD", desc: "Layered source files, ready to edit." },
-  tutorials:  { label: "Tutorials",        code: "TUT", desc: "Video walkthroughs and setup guides." }
+  tutorials:  { label: "Tutorials",        code: "TUT", desc: "Video walkthroughs and setup guides." },
+  poses:      { label: "Poses",            code: "POS", desc: ".blend pose files for GFX renders." }
 };

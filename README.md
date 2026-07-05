@@ -15,8 +15,8 @@ downloads/    put your real .png / .rbxl / .rbxm / .blend / .psd files here
 thumbs/       optional preview images for cards (falls back to a colored tile if omitted)
 ```
 
-Categories are: `icons`, `models` (`.rbxm`/`.rbxl`), `rigs` (`.blend`), `psds`,
-and `tutorials` (YouTube videos, not downloads — see below).
+Categories are: `models` (`.rbxm`/`.rbxl`), `rigs` (`.blend`), `psds`,
+`tutorials` (YouTube videos, not downloads — see below), and `poses` (`.blend`).
 
 ## Adding your real assets
 
@@ -28,7 +28,7 @@ and `tutorials` (YouTube videos, not downloads — see below).
 ```js
 {
   id: "kit-archer",
-  category: "models",            // icons | models | rigs | psds | tutorials
+  category: "models",            // models | rigs | psds | tutorials | poses
   name: "Archer Kit",
   description: "Bow-focused kit with tuned damage falloff.",
   fileType: "RBXM",               // RBXM or RBXL for the models category
