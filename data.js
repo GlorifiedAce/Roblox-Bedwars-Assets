@@ -61,7 +61,7 @@ const ASSET_DATA = [
 
   // ---------------- BLENDER RIGS (.blend) ----------------
   {
-    id: "grim-reaper_rigged",
+    id: "grim-reaper-rigged",
     category: "rigs",
     name: "Grim Reaper Rig",
     description: "Fully rigged model of Roblox Bedwars Grim Reaper kit",
@@ -73,7 +73,7 @@ const ASSET_DATA = [
     tags: ["rig", "blender", "grim reaper", "character", "kit"]
   },
   {
-    id: "milo_rigged",
+    id: "milo-rigged",
     category: "rigs",
     name: "Milo Rig",
     description: "Fully rigged model of Roblox Bedwars Milo kit",
@@ -83,6 +83,105 @@ const ASSET_DATA = [
     downloadUrl: "downloads/Milo Rigged.blend",
     author: "GlorifiedAce",
     tags: ["rig", "blender", "sword", "weapon", "milo", "kit"]
+  },
+  {
+    id: "trixie-rigged",
+    category: "rigs",
+    name: "Trixie Rig",
+    description: "Fully rigged model of Roblox Bedwars Trixie kit",
+    fileType: "BLEND",
+    fileSize: "27 MB",
+    thumb: "thumbs/Trixie Rigged.png",
+    downloadUrl: "https://drive.google.com/file/d/1vDJXN1FOE5BA_mNzbQfHShZICKO9ncMZ/view?usp=drive_link",
+    author: "GlorifiedAce",
+    tags: ["rig", "blender", "sword", "weapon", "trixie", "kit"]
+  },
+  {
+    id: "caitlyn-rigged",
+    category: "rigs",
+    name: "Caitlyn Rig",
+    description: "Fully rigged model of Roblox Bedwars Caitlyn kit",
+    fileType: "BLEND",
+    fileSize: "3.9 MB",
+    thumb: "thumbs/Caitlyn Rigged.png",
+    downloadUrl: "downloads/Caitlyn Rigged.blend",
+    author: "GlorifiedAce",
+    tags: ["rig", "blender", "sword", "weapon", "caitlyn", "kit"]
+  },
+  {
+    id: "fisherman-rigged",
+    category: "rigs",
+    name: "Fisherman Rig",
+    description: "Fully rigged model of Roblox Bedwars Fisherman kit",
+    fileType: "BLEND",
+    fileSize: "8.6 MB",
+    thumb: "thumbs/Fisherman Rigged.png",
+    downloadUrl: "downloads/Fisherman Rigged.blend",
+    author: "GlorifiedAce",
+    tags: ["rig", "blender", "sword", "weapon", "fisherman", "kit"]
+  },
+  {
+    id: "farmer-cletus-rigged",
+    category: "rigs",
+    name: "Farmer Cletus Rig",
+    description: "Fully rigged model of Roblox Bedwars Farmer Cletus kit",
+    fileType: "BLEND",
+    fileSize: "0.4 MB",
+    thumb: "thumbs/Farmer Cletus Rigged.png",
+    downloadUrl: "downloads/Farmer Cletus Rigged.blend",
+    author: "GlorifiedAce",
+    tags: ["rig", "blender", "sword", "weapon", "farmer cletus", "kit"]
+  },
+  {
+    id: "gompy-rigged",
+    category: "rigs",
+    name: "Gompy Rig",
+    description: "Fully rigged model of Roblox Bedwars Farmer Gompy kit",
+    fileType: "BLEND",
+    fileSize: "4.2 MB",
+    thumb: "thumbs/Gompy Rigged.png",
+    downloadUrl: "downloads/Gompy Rigged.blend",
+    author: "GlorifiedAce",
+    tags: ["rig", "blender", "sword", "weapon", "gompy", "kit"]
+  },
+
+
+  // ---------------- POSES (.blend) ----------------
+  {
+    id: "midiar-flying-pose",
+    category: "poses",
+    name: "Midair Flying Pose",
+    description: "A person flying midair can be used for kits like davey",
+    fileType: "BLEND",
+    fileSize: "2.3 MB",
+    thumb: "thumbs/Midair Flying Pose.png",
+    downloadUrl: "downloads/Midair Flying Pose.blend",
+    author: "GlorifiedAce",
+    tags: ["pose", "blender", "flying", "gfx", "davey"]
+  },
+  {
+    id: "shrug-king-pose",
+    category: "poses",
+    name: "Shrug King Pose",
+    description: "Pose for shrugging or for kings",
+    fileType: "BLEND",
+    fileSize: "1.5 MB",
+    thumb: "thumbs/Shrug King Pose.png",
+    downloadUrl: "downloads/Shrug King Pose.blend",
+    author: "GlorifiedAce",
+    tags: ["pose", "blender", "action", "king", "gfx", "shrug"]
+  },
+  {
+    id: "holding-sword-sideways-pose",
+    category: "poses",
+    name: "Holding Sword Sideways Pose",
+    description: "Pose for holding the sword sideways and looking menacing",
+    fileType: "BLEND",
+    fileSize: "23.8 MB",
+    thumb: "thumbs/Holding Sword Sideways Pose.png",
+    downloadUrl: "https://drive.google.com/file/d/1wpolVim3z3NHrCkMMjSDm4Oqhl2JJPug/view?usp=drive_link",
+    author: "GlorifiedAce",
+    tags: ["pose", "blender", "action", "sword", "gfx", "fight"]
   },
 
   // ---------------- PSD TEMPLATES ----------------
@@ -130,31 +229,23 @@ const ASSET_DATA = [
     author: "Skyez",
     tags: ["tutorial", "shop", "guide", "setup", "video", "gfx", "beginner", "bedwars"]
   },
-
-  // ---------------- POSES (.blend) ----------------
   {
-    id: "pose-victory-stance",
-    category: "poses",
-    name: "Victory Stance Pose",
-    description: "Heroic victory pose rig, ready to drop into a GFX render.",
-    fileType: "BLEND",
-    fileSize: "4.1 MB",
-    thumb: "",
-    downloadUrl: "downloads/pose-victory-stance.blend",
-    author: "",
-    tags: ["pose", "blender", "victory", "gfx"]
+    id: "how-i-make-my-roblox-bedwars-thumbnails-rylan",
+    category: "tutorials",
+    name: "How I make my Roblox BedWars THUMBNAILS…",
+    description: "Beginner friendy guide to making thumbnails using photopea",
+    youtubeId: "RUmgD_8F3Pg",
+    author: "Rylan",
+    tags: ["tutorial", "shop", "guide", "setup", "video", "gfx", "beginner", "bedwars"]
   },
-  {
-    id: "pose-action-swing",
-    category: "poses",
-    name: "Action Swing Pose",
-    description: "Mid-swing action pose for weapon showcase thumbnails.",
-    fileType: "BLEND",
-    fileSize: "3.8 MB",
-    thumb: "",
-    downloadUrl: "downloads/pose-action-swing.blend",
-    author: "",
-    tags: ["pose", "blender", "action", "swing", "gfx"]
+   {
+    id: "how-i-make-my-roblox-bedwars-thumbnails-lunarcrow",
+    category: "tutorials",
+    name: "How i MAKE my Roblox Bedwars THUMBNAILS.. (Tutorial)",
+    description: "Beginner friendy guide to making bedwars cartoony thumbnails using photopea",
+    youtubeId: "KTRcfrbyCmg",
+    author: "LunarCrow",
+    tags: ["tutorial", "shop", "guide", "setup", "video", "gfx", "beginner", "bedwars", "cartoony"]
   }
 ];
 
@@ -171,28 +262,28 @@ const ASSET_DATA = [
 const DONATION_TIERS = [
   {
     id: "tip-small",
-    robux: 25,
+    robux: 5,
     label: "Buy a Pickaxe",
     blurb: "A small tip to help keep the chest stocked.",
     gamepassId: ""
   },
   {
     id: "tip-medium",
-    robux: 100,
+    robux: 10,
     label: "Buy Iron Armor",
     blurb: "Covers a bit of time spent rigging and packaging assets.",
     gamepassId: ""
   },
   {
     id: "tip-large",
-    robux: 500,
+    robux: 50,
     label: "Buy Diamond Gear",
     blurb: "A big help — goes straight back into making more free assets.",
     gamepassId: ""
   },
   {
     id: "tip-huge",
-    robux: 1000,
+    robux: 100,
     label: "Buy the Whole Kit",
     blurb: "Massive support. You're basically a chest sponsor now.",
     gamepassId: ""
@@ -204,7 +295,7 @@ const CATEGORY_META = {
   all:        { label: "All Items",        code: "ALL", desc: "Everything in the chest." },
   models:     { label: "Models",           code: "MOD", desc: ".rbxm and .rbxl model and map files." },
   rigs:       { label: "Blender Rigs",     code: "RIG", desc: ".blend rigs for kits and characters." },
+  poses:      { label: "Poses",            code: "POS", desc: ".blend pose files for GFX renders." },
   psds:       { label: "PSD Templates",    code: "PSD", desc: "Layered source files, ready to edit." },
-  tutorials:  { label: "Tutorials",        code: "TUT", desc: "Video walkthroughs and setup guides." },
-  poses:      { label: "Poses",            code: "POS", desc: ".blend pose files for GFX renders." }
+  tutorials:  { label: "Tutorials",        code: "TUT", desc: "Video walkthroughs and setup guides." }
 };
