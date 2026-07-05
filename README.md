@@ -4,7 +4,7 @@ A static asset-gallery site for Roblox Bedwars creators, styled after a Minecraf
 inventory: a category "hotbar" up top and asset cards laid out like inventory
 slots. Same kind of site as squidward5's Roblox Rivals Assets, themed for Bedwars.
 
-## Files
+## Files 
 
 ```
 index.html    the page structure
